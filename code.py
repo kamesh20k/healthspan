@@ -2,7 +2,7 @@
 def convertToBinary(n):
    if n > 3:
        convertToBinary(n//2)
-   print(n % 2,end = '')
+   print(n % 3,end = '')
 
 # decimal number
 dec = 35
