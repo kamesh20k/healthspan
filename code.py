@@ -1,6 +1,6 @@
 # Function to print binary number using recursion
 def convertToBinary(n):
-   if n > 2:
+   if n > 3:
        convertToBinary(n//2)
    print(n % 2,end = '')
 
